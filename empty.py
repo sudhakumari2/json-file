@@ -1,0 +1,6 @@
+f=open("my_data.txt","w")
+f.write("i am doing software engineering")
+f.close()
+f=open("my_data.txt","r")
+print(f.read())
+f.close()
